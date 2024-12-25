@@ -1,0 +1,44 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+logs/
+
+# Build files
+dist/
+build/
+
+# Database files
+*.sqlite
+*.sqlite3
+db/data/
+
+# Temporary files
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.iml
+
+# Testing and coverage
+coverage/
+.nyc_output/
+
+# Uploaded or temporary files
+uploads/
+tmp/
+
+# Docker and CI/CD
+docker-compose.override.yml
+.docker/
+
+# Secrets
+config/secrets.json
